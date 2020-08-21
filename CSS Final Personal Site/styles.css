@@ -1,0 +1,48 @@
+body {
+  background-color: #A3D2CA;
+}
+
+h1 {
+  color: #056676;
+}
+
+h3 {
+  color: #056676;
+}
+
+/* ID selector */
+#foodheading {
+  color: blue;
+  font-size: 150px;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 5px 0 0 0;
+  border-top-color: grey;
+  height: 0;
+  width: 10%;
+}
+
+/* tag selector */
+img {
+  background-color: red;
+  height: 250px;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+/* class selectors */
+.meat {
+  background-color: red;
+}
+
+.veg {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 100%;
+}
