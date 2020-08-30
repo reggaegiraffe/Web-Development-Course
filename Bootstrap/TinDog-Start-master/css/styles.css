@@ -50,3 +50,35 @@ h1 {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
+
+/* Features section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-col{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.feature-icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #FF4C68;
+}
+
+
+.feature-head {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+.feature-para {
+  color: #8F8F8F;
+}
