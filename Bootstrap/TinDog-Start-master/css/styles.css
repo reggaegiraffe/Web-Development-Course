@@ -75,10 +75,48 @@ h1 {
 
 
 .feature-head {
-  font-family: 'Montserrat-bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 1.5rem;
 }
 
 .feature-para {
   color: #8F8F8F;
+}
+
+
+/* Testimonials section */
+
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.testimonial-head {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Press section */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
