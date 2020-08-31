@@ -88,10 +88,13 @@ h1 {
 
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #EF8172;
   color: #FFF;
+}
+
+.testimonial-item {
+  padding: 7% 15%;
 }
 
 .testimonial-head {
