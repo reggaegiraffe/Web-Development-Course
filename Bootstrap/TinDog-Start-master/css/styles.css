@@ -14,6 +14,18 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -74,10 +86,6 @@ h1 {
 }
 
 
-.feature-head {
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 1.5rem;
-}
 
 .feature-para {
   color: #8F8F8F;
@@ -132,12 +140,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
 
 .pricing-column {
   padding: 3% 2%;
