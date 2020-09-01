@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-family: 'Montserrat', serif;
+  font-size: 4rem;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -27,13 +27,19 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
+
+
+
+
 
 /* Navigation Bar */
 
@@ -68,6 +74,10 @@ h3 {
 
 #features {
   padding: 7% 15%;
+  background-color: #FFF;
+  z-index: 1;
+  position: relative;
+
 }
 
 .feature-col{
