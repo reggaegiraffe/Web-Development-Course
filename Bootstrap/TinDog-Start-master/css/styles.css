@@ -37,6 +37,18 @@ h3 {
   right: 30%;
 }
 
+@media (max-width: 1028px) {     /* Roughly size of tablet & mobile */
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img{
+    transform: rotate(0);
+    position: static;
+
+  }
+}
 
 
 
