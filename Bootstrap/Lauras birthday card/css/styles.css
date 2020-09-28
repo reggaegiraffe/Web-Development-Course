@@ -152,9 +152,13 @@ h3 {
   text-align: center;
 }
 
+.pricing-head {
+  color: #fca652;
+}
 
 .pricing-column {
   padding: 3% 2%;
+  background-color: #fca652;
 }
 
 
@@ -162,7 +166,7 @@ h3 {
 
 #cta {
   text-align: center;
-  background-color: #FF4c68;
+  background-color: #b83b5e;
   color: #fff;
   padding: 7% 15%;
 }
@@ -179,7 +183,7 @@ h3 {
 
 #footer {
   text-align: center;
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 .media-icon {
