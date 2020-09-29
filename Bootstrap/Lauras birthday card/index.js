@@ -1,8 +1,14 @@
 var bbutton = document.querySelector(".birthday-button");
-
-console.log(bbutton);
+var musicon = false;
+var music = new Audio("sounds/reggaeshort.mp3");
 
 bbutton.addEventListener("click", function() {
-  var music = new Audio("sounds/reggaeshort.mp3");
-  music.play();
+  if (musicon) {
+    musicon = false;
+    music.pause();
+  } else {
+    musicon = true;
+    music.play();
+
+  }
 });
